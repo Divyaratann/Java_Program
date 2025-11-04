@@ -1,3 +1,5 @@
+#java Program to create one interface that can be implementing than more one classes
+
 interface Area {
     final static float pi=3.14f;
     float compute();
@@ -31,4 +33,5 @@ class TestInterface{
         System.out.println("Area Of Rectangle="+Rarea);
         System.out.println("Area of Circle="+Carea);
     }
+
 }
